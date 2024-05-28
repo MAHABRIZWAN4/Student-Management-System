@@ -1,0 +1,20 @@
+{
+  "name": "m4-student-management-system",
+  "version": "1.0.0",
+  "description": "This is a TypeScript project implementing a student management system. It allows students to enter their details and pay for courses using various payment methods. Upon successful payment, it displays the enrollment details including the student's name, ID, course, fees paid, and current balance.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahab Rizwan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.2.22"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
